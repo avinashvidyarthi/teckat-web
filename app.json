@@ -1,0 +1,8 @@
+{
+    "name": "Start on Heroku: Node.js",
+    "description": "teckat app",
+    "repository": "https://github.com/insantoshmahto/teckat",
+    "logo": "https://onsi.in/favicon.ico",
+    "keywords": ["node", "express", "heroku"],
+    "image": "heroku/nodejs"
+}
