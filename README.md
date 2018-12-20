@@ -1,2 +1,2 @@
 by onsi
-"# teckat" 
+teckat
