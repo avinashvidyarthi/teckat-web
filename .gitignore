@@ -2,9 +2,6 @@
 node_modules
 npm-debug.log
 
-#distribution file
-./dist
-
 # Local development
 *.env
 *.dev
