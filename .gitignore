@@ -3,7 +3,7 @@ node_modules
 npm-debug.log
 
 #distribution file
-/dist
+./dist
 
 # Local development
 *.env
