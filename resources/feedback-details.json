@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "name": "bikash singh",
+    "imageUrl": "images/home/feedback/pic1.png",
+    "imageAltText": "bikash sing",
+    "designation": "student",
+    "message": "I attended the workshop on IoT using NodeMcu in GIET University. It was a 2 day workshop which was completely based on practical implementation. We were taught with basics and all the equipment were given accordingly. We did no. of projects and learned a lot. The knowledge we acquire made us know the importance of practical work and we too analysed the difference between practical and theoretical knowledge."
+  },
+  {
+    "id": 1,
+    "name": "deepak agrawal",
+    "imageUrl": "images/home/feedback/pic2.png",
+    "imageAltText": "deepak agrawal",
+    "designation": "student",
+    "message": "I am a student of science stream, as I do keep interest in electronics field so I attended a workshop organized by teckat. It was a workshop on AVR with Arduino. It was a 2 day workshop in which we learned about various things practically and all the kits were given as per the requirement. I felt happy technically to attend the workshop as it guided me about engineering."
+  },
+  {
+    "id": 2,
+    "name": "avinash aditya",
+    "imageUrl": "images/home/feedback/pic3.png",
+    "imageAltText": "avinash aditya",
+    "designation": "student",
+    "message": "I am a student of Computer Science Department in GIET University. We had a workshop on basics of electronic devices repairing. It was a 10 days skill development workshop. Being a CSE student, I gained lots of knowledge on core part. We had a great experience in all."
+  },
+  {
+    "id": 3,
+    "name": "arti gupta",
+    "imageUrl": "images/home/feedback/india.png",
+    "imageAltText": "arti gupta",
+    "designation": "student",
+    "message": "I am a student of ECE background. I got the opportunity to attend the workshop given by Teckat with my friends on Internet of Things. Overall, it was an awesome workshop as it the technical trainer were fabulous with their skills."
+  }
+]

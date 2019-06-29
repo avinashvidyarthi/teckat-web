@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "name": "pritam kundu",
+    "designation": "ceo",
+    "imageUrl": "images/team/members/pritamkundu.jpg",
+    "imageAltText": "pritam kundu",
+    "facebook": "https://www.facebook.com/pritam.kundu.148/",
+    "twitter": "http: //twitter.com/",
+    "instagram": "https://www.instagram.com/ppritamkundu/"
+  },
+  {
+    "id": 1,
+    "name": "sanjeev gope",
+    "designation": "ui/ux designer",
+    "imageUrl": "images/team/members/sanjeevgope.jpg",
+    "imageAltText": "sanjeev gope",
+    "facebook": "https://www.facebook.com/",
+    "twitter": "http: //twitter.com/",
+    "instagram": "https://www.instagram.com/"
+  },
+  {
+    "id": 2,
+    "name": "sandeep",
+    "designation": "cmo",
+    "imageUrl": "images/team/members/sandeep.jpg",
+    "imageAltText": "sandeep",
+    "facebook": "https://www.facebook.com/sandeep.chatterjee.731/",
+    "twitter": "http: //twitter.com/",
+    "instagram": "https://www.instagram.com/"
+  },
+  {
+    "id": 3,
+    "name": "santosh mahto",
+    "designation": "cto",
+    "imageUrl": "images/team/members/insantoshmahto.jpg",
+    "imageAltText": "santosh mahto",
+    "facebook": "https://www.facebook.com/insantoshmahto/",
+    "twitter": "https://twitter.com/santoshmahto_in/",
+    "instagram": "https://www.instagram.com/insantoshmahto/"
+  },
+  {
+    "id": 4,
+    "name": "gaurav",
+    "designation": "trainer",
+    "imageUrl": "images/team/members/gaurav.jpg",
+    "imageAltText": "sanjeev gope",
+    "facebook": "https://www.facebook.com/",
+    "twitter": "http: //twitter.com/",
+    "instagram": "https://www.instagram.com/"
+  },
+  {
+    "id": 5,
+    "name": "maybe you",
+    "designation": "your dream",
+    "imageUrl": "images/team/members/maybe.jpg",
+    "imageAltText": "maybe you",
+    "facebook": "https://www.facebook.com/",
+    "twitter": "http: //twitter.com/",
+    "instagram": "https://www.instagram.com/"
+  }
+]

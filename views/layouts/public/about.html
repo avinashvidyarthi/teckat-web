@@ -1,0 +1,86 @@
+<!--  welcome section  -->
+<section class="welcome section pt-3 pb-0">
+  <div class="about-gradient">
+    <div class="container text-white text-left">
+      <div class="px-3 pt-5">
+        <h1 class="text-capitalize heading pl-4"><%= page.heading %></h1>
+        <p class="pb-lg-5 lead pt-2 pl-5 intro"><%= page.introduction %></p>
+      </div>
+    </div>
+    <div>
+      <img src="images/about/welcome.png" class="transparent" alt="" />
+    </div>
+  </div>
+</section>
+<!--  welcome section end  -->
+
+<!-- main  -->
+<main>
+  <!--  about details   -->
+  <section class="container section mt-0 pt-0">
+    <% page.aboutUs.details.forEach(blockDetails => { %>
+    <!-- about us, our vision, how it works -->
+    <article class="container pt-3 pb-1" id="<%= blockDetails['id'] %>">
+      <!-- sub heading of each articles -->
+      <h4 class="text-left font-weight-bold text-capitalize pt-4">
+        <%= blockDetails['subHeading'] %>
+      </h4>
+      <% blockDetails['details'].forEach(paragraphs => { %>
+      <!-- nested paragraph of each articles -->
+      <p class="text-justify"><%= paragraphs %></p>
+      <% }) %>
+    </article>
+    <!-- about us, our vision, how it works End -->
+    <% }) %>
+  </section>
+  <!--  about details end   -->
+
+  <!-- info -->
+
+<!-- info -->
+<% include ./partials/info.min.html %>
+<!-- info End -->
+  <!-- info End -->
+
+  <!--  know more  =========== -->
+
+    <section class="container section" id="<%= page.knowMore.id %>">
+    <div class="text-center px-5 pt-5">
+      <h1 class="text-uppercase font-weight-bold">
+        <%= page.knowMore.heading %>
+      </h1>
+      <hr />
+    </div>
+
+    <!-- why choose us, our mission, what you get -->
+    <% page.knowMore.details.forEach( blockDetails => { %>
+    <article class="container section pt-5 pb-2" id="<%= blockDetails['id'] %>">
+      <!-- sub heading of each articles -->
+      <h4 class="text-left font-weight-bold text-capitalize pt-4">
+        <%= blockDetails['subHeading'] %>
+      </h4>
+      <% blockDetails['details'].forEach( paragraphs => { %>
+      <!-- nested paragraph of each articles -->
+      <p class="text-justify"><%= paragraphs %></p>
+      <% }) %>
+    </article>
+    <!-- why choose us, our mission, what you get end -->
+    <% }) %>
+  </section>
+  <!-- ======== know more end  == -->
+</main>
+<!-- main end -->
+<!-- more info -->
+<aside class="container section bg-light">
+  <div class="text-center px-5 pt-5">
+    <h1 class="text-uppercase font-weight-bold">more info</h1>
+    <hr />
+  </div>
+  <div class="text-center">
+    <h6 class="pt-4 pb-2 text-capitalize">
+      know more about out terms and conditions, privacy policies, cookies etc.
+    </h6>
+    <a href="info" rel="help" class="btn btn-primary px-5">Read More</a>
+  </div>
+</aside>
+<!-- more info End -->

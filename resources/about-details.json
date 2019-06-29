@@ -1,0 +1,58 @@
+{
+  "aboutUs": {
+    "id": "about-us-main",
+    "heading": "about us",
+    "details": [
+      {
+        "id": "about-us",
+        "subheading": "about us",
+        "details": [
+          "Our company provides best faculties for the workshop conduction in different fields to the students along with the components based on the requirement of workshop. We do respond to different institutions as per their area of interest  on which they want the workshop to be conducted. Students will be given complete knowledge so that they can implement it practically and go for various innovative projects.",
+          "Apart from this, our company immediately contacts with the customers who are therefore in need once all the procedures are being done thereby to provide best services and help our customers in best manner.",
+          "Also assures for the instant response to the customers as per the requirement."
+        ]
+      },
+      {
+        "id": "our-vision",
+        "subheading": "our vision",
+        "details": [
+          "To provide you with best ever services and reach to the students expectation and make them reliable in their field of interest through the medium of  workshops. To be the eye vision of students and nurture them at their initial stage to help them think about their future based on various fields."
+        ]
+      },
+      {
+        "id": "how-we-works",
+        "subheading": "how we works",
+        "details": [
+          "We work with many experienced trainers who will host and conduct the workshops as per the schedule with complete kit available with full of components required to gain the ideas and knowledge. In coming future, We would have an ultimate panel of electricians in various fields who will provide you complete package of work assigned to them and will give you the best solution until and unless the work is done. We also work on development of websites and mobile application."
+        ]
+      }
+    ]
+  },
+  "knowMore": {
+    "id": "know-more",
+    "heading": "know More",
+    "details": [
+      {
+        "id": "why-choose-us",
+        "subheading": "Why Choose Us",
+        "details": [
+          "Best trainers are provided for the workshop to be conducted. Training kit will be provided to the students depending on the workshop. Best ever services will be given to the customers with the assurance of the work being done on time."
+        ]
+      },
+      {
+        "id": "our-mission",
+        "subheading": "Our Mission",
+        "details": [
+          "To provide you with best ever services and reach to the students expectation and make them reliable in their field of interest through workshops. To be the eye vision of students and nurture them at their initial stage to help them think about their future based on various fields."
+        ]
+      },
+      {
+        "id": "what-you-get",
+        "subheading": "What You Get",
+        "details": [
+          "You will get complete facilities regarding services required. Offers and discounts will be intimated to you. In case there is an emergency, we will definitely reach you as soon as possible. Ultimately, we guarantee you optimal satisfaction."
+        ]
+      }
+    ]
+  }
+}

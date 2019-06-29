@@ -1,0 +1,84 @@
+<!--  welcome section  -->
+<section class="container-fluid section pt-3">
+  <div
+    class="row"
+    style="background-image:url('images/home/welcome.webp');background-attachment: fixed;"
+  >
+    <div class="col-12 col-md-3 px-3 pt-2">
+      <h1 class="pt-5 text-center text-capitalize"><%= page.heading %></h1>
+      <hr class="text-center" />
+      <h6 class="text-right"><%= page.tagLine %></h6>
+      <p class="lead py-2 px-3 py-5"><%= page.introduction %></p>
+    </div>
+    <div class="col-12 col-md-9">
+      <img
+        src="images/home/welcome.webp"
+        class="img-fluid rounded"
+        alt="welcome"
+      />
+    </div>
+  </div>
+</section>
+<!--  welcome section end  -->
+
+<!-- main -->
+<main class="container section">
+  <div class="tk-accordion-group">
+    <% page.faqDetails.forEach( item => { %>
+    <!-- faq<%= item['id'] %> -->
+    <div class="tk-accordion px-lg-5 py-2 px-3 mb-4">
+      <!-- accordion title -->
+      <div class="tk-accordion-title">
+        <!-- heading to be render -->
+        <p class="h6">
+          <i class="fas fa-plus pr-2" aria-hidden="true"></i>
+          <i class="fas fa-minus pr-2" aria-hidden="true"></i>
+          <%= item['title'] %>
+        </p>
+        <!-- heading to be render End -->
+      </div>
+      <!-- accordion title end -->
+
+      <!-- accordion body -->
+      <div class="tk-accordion-body pl-3 pl-lg-5">
+        <!-- content to be render -->
+        <p class="text-justify pt-lg-2 pt-1">
+          <%= item['content'] %>
+        </p>
+        <!-- content to be render end -->
+
+        <% if (item['isList'] === true) { %>
+        <!-- unordered list  -->
+        <ul>
+          <% item['listItems'].forEach( item => { %>
+          <li><%= item %></li>
+          <% })%>
+        </ul>
+        <!-- unordered list End  -->
+        <% } %>
+      </div>
+      <!-- accordion body End -->
+    </div>
+    <!-- faq<%= item['id'] %> End -->
+    <% }) %>
+  </div>
+</main>
+<!-- End main -->
+<script>
+  let tkAcc = document.getElementsByClassName('tk-accordion-title');
+  let i;
+
+  for (i = 0; i < tkAcc.length; i++) {
+    tkAcc[i].addEventListener('click', function() {
+      // this.classList.toggle('active');
+      var panel = this.parentElement;
+      // console.log(panel);
+      panel.classList.toggle('tk-accordion-active');
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + 'px';
+      }
+    });
+  }
+</script>

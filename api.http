@@ -1,0 +1,21 @@
+GET https://onsi.in/about
+
+###
+
+GET https://jsonplaceholder.typicode.com/posts
+
+###
+
+POST https://jsonplaceholder.typicode.com/posts
+Content-Type: application/json
+
+{
+  "title": "my Post",
+  "body": "this is y post"
+}
+
+###
+GET http://localhost/about/
+
+###
+GET https://dev.teckat.com/services/workshops/iot

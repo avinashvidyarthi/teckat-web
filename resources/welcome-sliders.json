@@ -1,0 +1,47 @@
+[
+  {
+    "id": 0,
+    "heading": "teckat",
+    "content": "A pace towards dynamic tomorrow",
+    "desktopImage": "images/home/sliders/slider1.jpg",
+    "desktopAltText": "slider one for desktop",
+    "mobileImage": "images/home/sliders/slider1.jpg",
+    "mobileAltText": "slider one for mobile"
+  },
+  {
+    "id": 1,
+    "heading": "teckat",
+    "content": "A pace towards dynamic tomorrow",
+    "desktopImage": "images/home/sliders/slider2.jpg",
+    "desktopAltText": "slider two for desktop",
+    "mobileImage": "images/home/sliders/slider2.jpg",
+    "mobileAltText": "slider two for mobile"
+  },
+  {
+    "id": 2,
+    "heading": "teckat",
+    "content": "A pace towards dynamic tomorrow",
+    "desktopImage": "images/home/sliders/slider3.jpg",
+    "desktopAltText": "slider three for desktop",
+    "mobileImage": "images/home/sliders/slider3.jpg",
+    "mobileAltText": "slider three for mobile"
+  },
+  {
+    "id": 3,
+    "heading": "teckat",
+    "content": "A pace towards dynamic tomorrow",
+    "desktopImage": "images/home/sliders/slider1.jpg",
+    "desktopAltText": "slider four for desktop",
+    "mobileImage": "images/home/sliders/slider1.jpg",
+    "mobileAltText": "slider four for mobile"
+  },
+  {
+    "id": 4,
+    "heading": "teckat",
+    "content": "A pace towards dynamic tomorrow",
+    "desktopImage": "images/home/sliders/slider2.jpg",
+    "desktopAltText": "slider five for desktop",
+    "mobileImage": "images/home/sliders/slider2.jpg",
+    "mobileAltText": "slider five for mobile"
+  }
+]

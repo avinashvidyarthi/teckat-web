@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "heading": "teckat",
+    "content": "A pace towards dynamic tomorrow",
+    "common": "images/team/sliders/adult-1366x768.jpg",
+    "desktop": "images/team/sliders/adult-1920x1080.jpg",
+    "mobile": "images/team/sliders/adult-1080x1920.jpg",
+    "altText": "pic - 1"
+  },
+  {
+    "id": 1,
+    "heading": "teckat",
+    "content": "A pace towards dynamic tomorrow",
+    "common": "images/team/sliders/action-1366x768.jpg",
+    "desktop": "images/team/sliders/action-1920x1080.jpg",
+    "mobile": "images/team/sliders/action-1080x1920.jpg",
+    "atlText": "pic - 2"
+  }
+]

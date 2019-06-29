@@ -1,0 +1,26 @@
+<style>.contact-box{box-shadow:0 8px 10px 0 rgba(0,0,0,.2);transition:transform .2s;height:25rem}.contact-box:hover{transition:.5s;background-color:rgba(251,251,251,1);box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);transform:scale(1.01)}</style><!--  welcome section  --><section class="container-fluid section pt-3"><div class="row" style="background-image:url(images/home/welcome.webp);background-attachment:fixed"><div class="col-12 col-md-3 px-3 pt-2"><h1 class="pt-5 text-center text-capitalize"><%= page.heading %></h1><hr class="text-center"><h6 class="text-right"><%= page.tagLine %></h6><p class="lead py-2 px-3 py-5"><%= page.introduction %></p></div><div class="col-12 col-md-9"><img src="images/home/welcome.webp" class="img-fluid rounded" alt="welcome"></div></div></section><!--  welcome section end  --><!--  Contact us  --><section class="container section" id="contact"><div class="pb-2"><h1 class="text-center text-uppercase font-weight-bold">Contact us</h1><hr></div><div class="row"><div class="col-12 col-md-4"><!-- content of the block --><div class="mb-3 mt-1 pb-3 contact-box"><!-- Heading of the block--><h4 class="font-weight-bold bg-primary text-white py-3 text-center">TecKat</h4><address class="px-5 pt-5"><div class="row"><div class="col-12"><div class="text-justify text-secondary pt-2"><i class="fas fa-home mr-3 text-primary" aria-hidden="true"></i> <span>12, Sidhgora, Jamshedpur,</span><p class="text-secondary pb-2">&emsp;&emsp; Jharkhand, India – 831009</p></div><p class="text-justify py-2"><i class="fas fa-envelope mr-3 text-primary" aria-hidden="true"></i> <a href="mailto:support@teckat.com">support@teckat.com</a></p><p class="text-justify py-2"><i class="fas fa-phone mr-3 text-primary" aria-hidden="true"></i> <a href="tel:+919337704495">+91 93377 04495</a></p></div></div></address></div><!-- End content of the block --></div><div class="col-12 col-md-8"><div class="mb-3 mt-1 pb-3 contact-box"><!-- Heading of the block--><h4 class="font-weight-bold bg-primary text-white py-3 text-capitalize text-center">lets get started</h4><!-- content of the block --><div class="px-3"><!-- Contact Us Form --><form class="needs-validation" novalidate><div class="form-row"><div class="col-md-6 mb-3"><label for="email">Email</label> <input type="email" class="form-control" id="email" name="email" placeholder="Enter your Email address" required><div class="valid-feedback">Validation Success.</div><div class="invalid-feedback">Please provide a valid Email.</div></div><div class="col-md-6 mb-3"><label for="subject">Subject</label> <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter your Name" required><div class="valid-feedback">Validation Success.</div><div class="invalid-feedback">Please provide a valid Subject.</div></div></div><div class="form-row"><div class="col-12 mb-3"><label for="query">Query</label> <textarea class="form-control" id="query" name="query" cols="50" rows="3" placeholder="Enter your Query" required></textarea><div class="valid-feedback">Validation Success.</div><div class="invalid-feedback">Please provide a valid Query.</div></div></div><div class="text-center"><button class="btn btn-outline-primary" name="submit" type="submit">Submit Query</button></div></form></div><!-- End content of the block --></div></div></div></section><!-- Contact us end   --><script>// Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function() {
+    'use strict';
+    window.addEventListener(
+      'load',
+      function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener(
+            'submit',
+            function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            },
+            false
+          );
+        });
+      },
+      false
+    );
+  })();</script>

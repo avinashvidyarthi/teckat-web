@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+  <head>
+    <!-- charset -->
+    <meta charset="UTF-8" />
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- edge -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- description -->
+    <meta name="description" content="<%= page.descriptions %>" />
+    <!-- keyword -->
+    <meta name="keyword" content="<%= page.keywords %>" />
+    <!-- base -->
+    <base href="<%= page.domain %>" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <!--fontawesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Spectral|Timmana"
+      rel="stylesheet"
+    />
+    <!-- Scrollbar Custom CSS -->
+    <link
+      rel="stylesheet"
+      href="css/jquery.mCustomScrollbar.min.css"
+    />
+
+    <!--global css-->
+    <link rel="stylesheet" href="css/styles.min.css" />
+    <!--title of the page-->
+    <title>
+      <%= page.title %>
+    </title>
+    <!--favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- ios favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="images/icons/icon-72x72.png"
+    />
+    <!-- pwa support -->
+    <link rel="manifest" href="manifest.json" />
+    <!-- action bar color meta tag -->
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#ae1438" />
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#ae1438" />
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ae1438" />
+    <!-- ogp start -->
+    <meta property="og:url" content="<%= page.domain %>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Teckat" />
+    <meta property="og:title" content="<%= page.title %>" />
+    <meta property="og:description" content="<%= page.descriptions %>" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:locale:alternate" content="hi_IN" />
+    <meta property="fb:app_id" content="1916383908681524" />
+    <!-- og images -->
+    <meta property="og:image" content="<%= page.ogImageUrl %>" />
+    <meta property="og:image:secure_url" content="<%= page.ogImageUrl %>" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="650" />
+    <!-- og images end -->
+    <!-- ogp start end -->
+    <!-- page styles -->
+    <% if(page.css.isCss === true){ let urls = page.css.urls;
+    urls.forEach(url=>{ %>
+    <link rel="stylesheet" href="<%= url %>" />
+    <% }) } %>
+    <!-- page styles end -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-141019905-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-141019905-1');
+    </script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-XXXX"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- header with navbar -->
+    <% include ./partials/nav.min.html %>
+    <!-- layouts contents -->
+    <%- body %>
+    <!-- footer -->
+    <% include ./partials/footer.min.html %>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="js/jquery/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <!--global scripts -->
+    <script src="js/app.min.js"></script>
+
+    <!-- page scripts -->
+    <% if(page.js.isJs === true){ let urls = page.js.urls; urls.forEach(url=>{
+    %>
+    <script src="<%= url %>"></script>
+    <% }) } %>
+    <!-- page scripts end -->
+  </body>
+</html>
