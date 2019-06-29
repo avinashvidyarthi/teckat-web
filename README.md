@@ -8,14 +8,20 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+development machine with following tools:
 
 ```javascript
-Web Browser
+nodejs LTS // 12.x
+browser // google chrome
+text editor // vs code
+```
 
+### Browser Support
+
+```javascript
     Google Chrome
     Mozilla Firefox
-
+    Microsoft Edge
 ```
 
 ### Installing
@@ -26,13 +32,9 @@ Say what the step will be
 
 ```javascript
 npm i
-npm start
-```
-
-And repeat
-
-```javascript
-until finished
+npm start // for node
+npm run dev // for developments
+npm run prd // for production
 ```
 
 End with an example of getting some data out of the system or using it for a little demo

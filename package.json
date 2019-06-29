@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.5.1",
-    "nodemon": "^1.19.0",
+    "nodemon": "^1.19.1",
     "request": "^2.81.0",
     "tape": "^4.7.0"
   },
